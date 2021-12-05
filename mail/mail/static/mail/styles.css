@@ -1,0 +1,44 @@
+textarea {
+    min-height: 400px;
+}
+
+.mail-unread {
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 15px;
+}
+
+.mail-read {
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 15px;
+}
+
+.sender {
+    font-weight: bold;
+    font-size: large;
+}
+
+.read {
+    color: darkgrey;
+}
+
+.subject {
+    margin-left: 15px;
+}
+
+.date {
+    float: right;
+    color: grey;
+}
+
+.title {
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.buttons {
+    margin: 15px 10px 5px 0;
+}
